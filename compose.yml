@@ -1,0 +1,8 @@
+name: pnpm-docker-test
+
+services:
+  app:
+    build:
+      context: app
+    environment:
+      - LANG=C.UTF-8
